@@ -2229,4 +2229,14 @@
         -webkit-transition: background-color 0.35s ease-in-out;
         -ms-transition: background-color 0.35s ease-in-out;
         transition: background-color 0.35s ease-in-out;
+
     }
+
+.buttonLinks:hover {
+    background-color: #9ececc;
+}
+
+
+.buttonLinks:active {
+    background-color: #7eaeac;
+}
