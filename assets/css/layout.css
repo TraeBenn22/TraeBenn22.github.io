@@ -1621,7 +1621,7 @@
 	}
 
 		.item header {
-			background: grey;
+			background: whitesmoke;
 			font-size: 0.8em;
 		}
 
@@ -1690,7 +1690,6 @@
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 1.5em 0 0.75em 0;
 		}
 
 			#header .bottom > :last-child {
@@ -1797,8 +1796,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: cadetblue;
-		padding: 3em 0 4em 0;
+		background-color: whitesmoke;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
 	}
@@ -1831,10 +1829,9 @@
 		#main > section {
 			margin: 0;
 			overflow: hidden;
-			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			background-image: url("overlay.png");
 		}
 
 			#main > section.dark {
@@ -1867,21 +1864,21 @@
 			}
 
 			#main > section.one {
-				background-color: cadetblue;
-				background-image: url("../../images/banner.jpg");
+				background-color: whitesmoke;
+				background-image: url("../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: grey;
+				background-color: whitesmoke;
 			}
 
 			#main > section.three {
-                background-color: cadetblue;
+                background-color: whitesmoke;
 
 			}
 
 			#main > section.four {
-				background-color: grey;
+				background-color: whitesmoke;
 			}
 
 /* Wide */
@@ -2189,24 +2186,25 @@
 	}
 
     .aboutMe {
-        color: white;
+        color:black;
+        background-color: whitesmoke;
     }
 
     .linksSection {
 
-        color: grey;
+        color: black;
     }
 
     .textBelow {
-        color: white;
+        color: black;
     }
 
     .portfolio {
-        color: white;
+        color: black;
     }
 
     .whiteText {
-        color: white;
+        color: black;
     }
 
     .links {
@@ -2218,7 +2216,7 @@
         color: #fff !important;
         text-decoration: none;
         padding: 0.75em 2.5em 0.75em 2.5em;
-        background-color: #8ebebc;
+        background-color: black;
         border: 1px;
         cursor: pointer;
         background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("overlay.png");

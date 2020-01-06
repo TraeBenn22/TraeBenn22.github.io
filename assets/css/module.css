@@ -100,11 +100,9 @@ section, article {
         }
 
         #main section.cover {
-            padding: 4em 0em;
         }
 
             #main section.cover header {
-                padding: 0 1em;
             }
 
     /* Footer */
@@ -113,7 +111,6 @@ section, article {
             display: block;
             line-height: 1.25em;
             border: 0;
-            padding: 0;
             margin: 1em 0 0 0;
         }
 
@@ -165,3 +162,14 @@ ol {
 			text-align: center;
 			border: 0;
 		}
+
+        .linkedIn {
+            display: block;
+            width: 50%;
+            margin: auto;
+        }
+        .gitHub {
+            display: block;
+            width: 50%;
+            margin: auto;
+        }
